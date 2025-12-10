@@ -4,18 +4,18 @@ kind: Plugin
 metadata:
   name: kubescape
 spec:
-  version: v3.0.47-rc.14
+  version: v3.0.47-rc.15
   platforms:
     - bin: kubescape
-      uri: https://github.com/kubescape/kubescape/releases/download/v3.0.47-rc.14/kubescape_3.0.47-rc.14_linux_arm64.tar.gz
-      sha256: 91739f21edbbe6b5f2df80726b73195ad68cc99e6db668d9409fcce6cea73f14
+      uri: https://github.com/kubescape/kubescape/releases/download/v3.0.47-rc.15/kubescape_3.0.47-rc.15_linux_arm64.tar.gz
+      sha256: 7ea6634956389b32e333eb2e610aedd78d3f1e96b783c96710fb8433dfa1cb31
       selector:
         matchLabels:
           os: linux
           arch: arm64
     - bin: kubescape
-      uri: https://github.com/kubescape/kubescape/releases/download/v3.0.47-rc.14/kubescape_3.0.47-rc.14_linux_amd64.tar.gz
-      sha256: 450335ae6e926e15aeda393c4449a19543ff50fec676a670bdfdf58b8a909108
+      uri: https://github.com/kubescape/kubescape/releases/download/v3.0.47-rc.15/kubescape_3.0.47-rc.15_linux_amd64.tar.gz
+      sha256: cb8d3b66d966000f7539dd91fd617bbf93ef73f0502b709b1065150b75fb9f29
       selector:
         matchLabels:
           os: linux
